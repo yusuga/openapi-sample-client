@@ -32,7 +32,7 @@ extension AppView {
   func requestUser() {
     Task {
       do {
-        userName = try await apiClient.getUserGet().ok.body.json.name
+        userName = try await apiClient.getUser().ok.body.json.name
       } catch {
         userName = "Error"
         print("\(#function) error: \(error)")
@@ -43,7 +43,7 @@ extension AppView {
   func requestStore() {
     Task {
       do {
-        storeName = try await apiClient.getStoreGet().ok.body.json.name
+        storeName = try await apiClient.getStore().ok.body.json.name
       } catch {
         storeName = "Error"
         print("\(#function) error: \(error)")

@@ -10,7 +10,7 @@ let package = Package(
     // OpenAPI
     .package(url: "https://github.com/apple/swift-openapi-urlsession", from: "1.0.0"),
     // MyService
-    .package(url: "https://github.com/yusuga/openapi-sample-spec.git", revision: "f83d735a87233095e8b2b625da53651c44a213cc"),
+    .package(url: "https://github.com/yusuga/openapi-sample-spec.git", revision: "39134747de92dc33b1293979ecbb4e5cec1963f4"),
   ],
   targets: [
     .target(

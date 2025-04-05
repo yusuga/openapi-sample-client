@@ -1,12 +1,12 @@
 {
-  "originHash" : "e9b02e2c133c7594b1a68abdb5f5ac16290d0f9aef229b1d7e8bda30a0f8af7c",
+  "originHash" : "c560ef404258773a2447abac2a6cd83b8d5b64b10f3f6dd768198b5b5139df27",
   "pins" : [
     {
       "identity" : "openapi-sample-spec",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/yusuga/openapi-sample-spec.git",
       "state" : {
-        "revision" : "b68b0458412a56b1e6ed7fad26315ff8f71cc169"
+        "revision" : "39134747de92dc33b1293979ecbb4e5cec1963f4"
       }
     },
     {
